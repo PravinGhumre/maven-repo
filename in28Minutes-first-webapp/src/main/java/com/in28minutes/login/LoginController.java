@@ -37,6 +37,7 @@ public class LoginController {
 		}
 		model.addAttribute("name", name);
 		model.addAttribute("password", password);
+		System.out.println(" I have updated handleLoginRequest method !!!!!!!!!");
 		return "welcome";
 	}
 
