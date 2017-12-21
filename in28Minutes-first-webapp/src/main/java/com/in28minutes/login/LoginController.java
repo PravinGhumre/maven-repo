@@ -49,4 +49,9 @@ public class LoginController {
 		this.messageSource = messageSource;
 	}
 
+	@Override
+	public String toString() {
+		return "LoginController [service=" + service + ", messageSource="
+				+ messageSource + "]";
+	}
 }
